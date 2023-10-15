@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.sales-leaders {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+} 
+
+.menu {
+    display: flex;
+    font-family: "Geologica", sans-serif;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} 
+
+.menu__item {
+    border: 1px solid rgb(151, 149, 149);
+    padding: 5px 10px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    border: 1px solid rgb(185, 184, 184);
+    height: 400px;
+    width: 268px;
+    padding: 20px;
+}
+
+.product__photo {
+    margin-bottom: 30px;
+}
+
+.product__name {
+    text-align: center;
+    height: 40px;
+}
+
+.product__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 30px; 
+    color: yellow;
+    display: flex;
+}
+ 
+.text {
+    color:black;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.plan img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.paw {
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.product__price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.add {
+    font-size: 30px;
+}
